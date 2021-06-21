@@ -1,15 +1,24 @@
 html{
-  background-color: #ECF0F1;
+  background-color: #F8EFE7;
 }
 
 
+
 h1{
-  font-size: 45px;
-  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: justify;
   border-bottom: 1px solid gray;
   margin: 0;
   padding: 30px;
+  color: 80461B;
   }
+
+h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #F88379;
+}
 
 a {
 text-decoration: none;
@@ -18,8 +27,13 @@ font-style: normal;
 font-weight: lighter;
 }
 
+p{
+  font-size: 18px;
+  font-weight: normal;
+}
+
 ul{
-  list-style-type: none;
+  list-style-type: circle;
   border-right: 1px solid gray;
   width: 150px;
   margin: 0;
@@ -32,10 +46,12 @@ li a {
 			text-decoration: none;
 			font-weight: bold;
 		}
+
 li a:hover {
-		background-color: #CD853F;
-		color: white;
-		}
+        background-color: #CD853F;
+        color: white;
+}
+
 #nav{
   display: grid;
   grid-template-columns: 150px 1fr;
