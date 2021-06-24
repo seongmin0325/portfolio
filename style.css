@@ -11,25 +11,26 @@ h1{
   border-bottom: 1px solid gray;
   margin: 0;
   padding: 30px;
-  color: 80461B;
+  color: #34495E;
+
   }
 
 h2{
   font-size: 30px;
-  font-weight: bold;
+  font-weight: normal;
   color: #F88379;
 }
 
 a {
 text-decoration: none;
-color: black;
 font-style: normal;
-font-weight: lighter;
+font-weight: bold;
 }
 
 p{
   font-size: 18px;
   font-weight: normal;
+  color: #34495E;
 }
 
 ul{
@@ -50,6 +51,11 @@ li a {
 li a:hover {
         background-color: #CD853F;
         color: white;
+}
+
+.en{
+  font-size: 18px;
+  font-weight: bold;
 }
 
 #nav{
